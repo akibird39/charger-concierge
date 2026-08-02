@@ -140,11 +140,13 @@
     .product-name { margin: 9px 0 5px; color: var(--ink); font-size: 1.36rem; line-height: 1.35; } .product-spec { margin: 0; color: var(--muted); font-size: .86rem; font-weight: 700; }
     .product-weight { padding: 7px 10px; border: 1px solid var(--line); border-radius: 9px; background: rgba(255,253,247,.78); color: var(--sage-deep); font-size: .78rem; font-weight: 800; white-space: nowrap; }
     .product-reason { margin: 22px 0 18px; padding: 14px 16px; border-radius: 10px; background: rgba(255,253,247,.62); border: 1px solid rgba(115,181,182,.28); color: var(--ink); font-size: .93rem; }
-    .moshimo-link { margin: 20px 0 0; padding: 16px; border: 1px solid rgba(115,181,182,.45); border-radius: 11px; background: rgba(255,253,247,.72); overflow: hidden; }
+    .moshimo-link { margin: 20px 0 0; padding: 12px; border: 1px solid rgba(115,181,182,.45); border-radius: 11px; background: rgba(255,253,247,.72); overflow: hidden; }
+    .moshimo-preload { position: absolute; left: -10000px; top: 0; width: 640px; opacity: 0; pointer-events: none; }
     .moshimo-link > * { max-width: 100%; }
     .moshimo-link img, .moshimo-link iframe { max-width: 100%; height: auto; }
     .moshimo-fallback { margin: 0; color: var(--muted); font-size: .86rem; }
     .moshimo-manual { display: grid; grid-template-columns: 94px minmax(0, 1fr); gap: 15px; align-items: center; }
+    .moshimo-manual.moshimo-manual-no-image { grid-template-columns: 1fr; }
     .moshimo-manual-image { width: 94px; aspect-ratio: 1; object-fit: contain; border: 1px solid rgba(115,181,182,.28); border-radius: 9px; background: #fffdf7; }
     .moshimo-manual-brand { margin: 0 0 4px; color: var(--sage-dark); font-size: .72rem; font-weight: 800; letter-spacing: .05em; }
     .moshimo-manual-title { margin: 0; color: var(--ink); font-size: .9rem; font-weight: 800; line-height: 1.55; }
@@ -193,24 +195,26 @@
     <section class="section section-soft"><div class="wrap"><div class="section-heading"><h2>よくある質問</h2></div><div class="faq"><details><summary>診断は無料ですか？</summary><p>はい。会員登録なしで、無料でご利用いただけます。</p></details><details><summary>今使っているケーブルは使えますか？</summary><p>スマホだけの場合は、今のケーブルをそのまま使えることがあります。ノートパソコンも充電する場合は、結果画面で対応するケーブルをご案内します。</p></details><details><summary>結果に出た商品はどこで買えますか？</summary><p>製品名をコピーしてAmazonなどで検索できます。商品の詳しい内容も、商品名で検索して確認できます。</p></details><details><summary>ゲーミングPCやクリエイターPCは診断できますか？</summary><p>必要な電力が機種ごとに異なるため、無料診断ではおすすめしていません。安全のため、付属充電器の表記を確認したうえで選ぶことをおすすめします。</p></details></div></div></section>
   </main>
   <footer><div class="wrap footer-inner"><p class="footer-brand">充電器コンシェルジュ</p><p>当サイトはアフィリエイト広告を利用しています。商品情報は購入前に公式サイト・販売ページをご確認ください。</p></div></footer>
-  <template id="moshimo-anker-511-nano3-30w">
+  <div class="moshimo-preload" aria-hidden="true">
+  <div class="moshimo-source-card" id="moshimo-anker-511-nano3-30w">
 <!-- START MoshimoAffiliateEasyLink --><script type="text/javascript">(function(b,c,f,g,a,d,e){b.MoshimoAffiliateObject=a;b[a]=b[a]||function(){arguments.currentScript=c.currentScript||c.scripts[c.scripts.length-2];(b[a].q=b[a].q||[]).push(arguments)};c.getElementById(a)||(d=c.createElement(f),d.src=g,d.id=a,e=c.getElementsByTagName("body")[0],e.appendChild(d))})(window,document,"script","https://dn.msmstatic.com/site/cardlink/bundle.js?20220329","msmaflink");msmaflink({"n":"Anker 511 Charger (Nano 3, 30W) ブラック","b":"Anker","t":"A2147","d":"https:\/\/m.media-amazon.com","c_p":"\/images\/I","p":["\/3161eFAqZGL._SL500_.jpg","\/412Mp46hfGL._SL500_.jpg","\/41R1Q2WqufL._SL500_.jpg","\/41x2BrnrrfL._SL500_.jpg","\/41m0JxqLr0L._SL500_.jpg","\/517sI8cuCPL._SL500_.jpg","\/31p9ViNnl1L._SL500_.jpg"],"u":{"u":"https:\/\/www.amazon.co.jp\/dp\/B0B2QQDKR8","t":"amazon","r_v":""},"v":"2.1","b_l":[{"id":1,"u_tx":"Amazonで見る","u_bc":"#f79256","u_url":"https:\/\/www.amazon.co.jp\/dp\/B0B2QQDKR8","a_id":2882106,"p_id":170,"pl_id":27060,"pc_id":185,"s_n":"amazon","u_so":1},{"id":2,"u_tx":"楽天市場で見る","u_bc":"#f76956","u_url":"https:\/\/search.rakuten.co.jp\/search\/mall\/Anker%20511%20Charger%20(Nano%203%2C%2030W)%20%E3%83%96%E3%83%A9%E3%83%83%E3%82%AF\/","a_id":2882105,"p_id":54,"pl_id":27059,"pc_id":54,"s_n":"rakuten","u_so":2},{"id":3,"u_tx":"Yahoo!ショッピングで見る","u_bc":"#66a7ff","u_url":"https:\/\/shopping.yahoo.co.jp\/search?first=1\u0026p=Anker%20511%20Charger%20(Nano%203%2C%2030W)%20%E3%83%96%E3%83%A9%E3%83%83%E3%82%AF","a_id":3775808,"p_id":1225,"pl_id":27061,"pc_id":1925,"s_n":"yahoo","u_so":3}],"eid":"fTbzw","s":"s"});</script><div id="msmaflink-fTbzw">リンク</div><!-- MoshimoAffiliateEasyLink END -->
-  </template>
-  <template id="moshimo-cio-duo-45w2c">
+  </div>
+  <div class="moshimo-source-card" id="moshimo-cio-duo-45w2c">
 <!-- START MoshimoAffiliateEasyLink --><script type="text/javascript">(function(b,c,f,g,a,d,e){b.MoshimoAffiliateObject=a;b[a]=b[a]||function(){arguments.currentScript=c.currentScript||c.scripts[c.scripts.length-2];(b[a].q=b[a].q||[]).push(arguments)};c.getElementById(a)||(d=c.createElement(f),d.src=g,d.id=a,e=c.getElementsByTagName("body")[0],e.appendChild(d))})(window,document,"script","https://dn.msmstatic.com/site/cardlink/bundle.js?20220329","msmaflink");msmaflink({"n":"CIO NovaPort DUOⅡ 45W PD急速充電器 USB-C×2 2台同時充電 世界最小級 （ブラック）","b":"CIO","t":"CIO-G45W2C-N2","d":"https:\/\/m.media-amazon.com","c_p":"\/images\/I","p":["\/31FaGWCKRmL._SL500_.jpg","\/31kDhbfK6jL._SL500_.jpg","\/31NGzbDkDfL._SL500_.jpg","\/31r4MPaxMcL._SL500_.jpg","\/41mlk-EsyrL._SL500_.jpg","\/41UFh7vsMnL._SL500_.jpg","\/4141q0vq7NL._SL500_.jpg","\/412u3CSuD4L._SL500_.jpg","\/41obcnmoJWL._SL500_.jpg"],"u":{"u":"https:\/\/www.amazon.co.jp\/dp\/B0D53VY57G","t":"amazon","r_v":""},"v":"2.1","b_l":[{"id":1,"u_tx":"Amazonで見る","u_bc":"#f79256","u_url":"https:\/\/www.amazon.co.jp\/dp\/B0D53VY57G","a_id":2882106,"p_id":170,"pl_id":27060,"pc_id":185,"s_n":"amazon","u_so":1},{"id":2,"u_tx":"楽天市場で見る","u_bc":"#f76956","u_url":"https:\/\/search.rakuten.co.jp\/search\/mall\/CIO%20NovaPort%20DUO%E2%85%A1%2045W%20PD%E6%80%A5%E9%80%9F%E5%85%85%E9%9B%BB%E5%99%A8%20USB-C%C3%972%202%E5%8F%B0%E5%90%8C%E6%99%82%E5%85%85%E9%9B%BB%20%E4%B8%96%E7%95%8C%E6%9C%80%E5%B0%8F%E7%B4%9A%20%EF%BC%88%E3%83%96%E3%83%A9%E3%83%83%E3%82%AF%EF%BC%89\/","a_id":2882105,"p_id":54,"pl_id":27059,"pc_id":54,"s_n":"rakuten","u_so":2},{"id":3,"u_tx":"Yahoo!ショッピングで見る","u_bc":"#66a7ff","u_url":"https:\/\/shopping.yahoo.co.jp\/search?first=1\u0026p=CIO%20NovaPort%20DUO%E2%85%A1%2045W%20PD%E6%80%A5%E9%80%9F%E5%85%85%E9%9B%BB%E5%99%A8%20USB-C%C3%972%202%E5%8F%B0%E5%90%8C%E6%99%82%E5%85%85%E9%9B%BB%20%E4%B8%96%E7%95%8C%E6%9C%80%E5%B0%8F%E7%B4%9A%20%EF%BC%88%E3%83%96%E3%83%A9%E3%83%83%E3%82%AF%EF%BC%89","a_id":3775808,"p_id":1225,"pl_id":27061,"pc_id":1925,"s_n":"yahoo","u_so":3}],"eid":"pC3zg","s":"s"});</script><div id="msmaflink-pC3zg">リンク</div><!-- MoshimoAffiliateEasyLink END -->
-  </template>
-  <template id="moshimo-cio-trio-67w2c1a">
+  </div>
+  <div class="moshimo-source-card" id="moshimo-cio-trio-67w2c1a">
 <!-- START MoshimoAffiliateEasyLink --><script type="text/javascript">(function(b,c,f,g,a,d,e){b.MoshimoAffiliateObject=a;b[a]=b[a]||function(){arguments.currentScript=c.currentScript||c.scripts[c.scripts.length-2];(b[a].q=b[a].q||[]).push(arguments)};c.getElementById(a)||(d=c.createElement(f),d.src=g,d.id=a,e=c.getElementsByTagName("body")[0],e.appendChild(d))})(window,document,"script","https://dn.msmstatic.com/site/cardlink/bundle.js?20220329","msmaflink");msmaflink({"n":"CIO NovaPort TRIOⅡ 65W 2C1A PD急速充電器 USB-C×2+USB-A×1 3台同時充電 世界最小級（ブラック）","b":"CIO","t":"CIO-G67W2C1A-N2-BK","d":"https:\/\/m.media-amazon.com","c_p":"\/images\/I","p":["\/4112nHQ3AaL._SL500_.jpg","\/31qVs84P5IL._SL500_.jpg","\/410wSmeandL._SL500_.jpg","\/417IxAVQKRL._SL500_.jpg","\/41+Jt2pZoFL._SL500_.jpg","\/41VFFixyDkL._SL500_.jpg","\/51884y0z+KL._SL500_.jpg","\/41hrif02toL._SL500_.jpg","\/41NeRJ-NlQL._SL500_.jpg","\/41eGzxIGcWL._SL500_.jpg","\/41Fgt6PJkQL._SL500_.jpg"],"u":{"u":"https:\/\/www.amazon.co.jp\/dp\/B0D53VJJ7F","t":"amazon","r_v":""},"v":"2.1","b_l":[{"id":1,"u_tx":"Amazonで見る","u_bc":"#f79256","u_url":"https:\/\/www.amazon.co.jp\/dp\/B0D53VJJ7F","a_id":2882106,"p_id":170,"pl_id":27060,"pc_id":185,"s_n":"amazon","u_so":1},{"id":2,"u_tx":"楽天市場で見る","u_bc":"#f76956","u_url":"https:\/\/search.rakuten.co.jp\/search\/mall\/CIO%20NovaPort%20TRIO%E2%85%A1%2065W%202C1A%20PD%E6%80%A5%E9%80%9F%E5%85%85%E9%9B%BB%E5%99%A8%20USB-C%C3%972%2BUSB-A%C3%971%203%E5%8F%B0%E5%90%8C%E6%99%82%E5%85%85%E9%9B%BB%20%E4%B8%96%E7%95%8C%E6%9C%80%E5%B0%8F%E7%B4%9A%EF%BC%88%E3%83%96%E3%83%A9%E3%83%83%E3%82%AF%EF%BC%89\/","a_id":2882105,"p_id":54,"pl_id":27059,"pc_id":54,"s_n":"rakuten","u_so":2},{"id":3,"u_tx":"Yahoo!ショッピングで見る","u_bc":"#66a7ff","u_url":"https:\/\/shopping.yahoo.co.jp\/search?first=1\u0026p=CIO%20NovaPort%20TRIO%E2%85%A1%2065W%202C1A%20PD%E6%80%A5%E9%80%9F%E5%85%85%E9%9B%BB%E5%99%A8%20USB-C%C3%972%2BUSB-A%C3%971%203%E5%8F%B0%E5%90%8C%E6%99%82%E5%85%85%E9%9B%BB%20%E4%B8%96%E7%95%8C%E6%9C%80%E5%B0%8F%E7%B4%9A%EF%BC%88%E3%83%96%E3%83%A9%E3%83%83%E3%82%AF%EF%BC%89","a_id":3775808,"p_id":1225,"pl_id":27061,"pc_id":1925,"s_n":"yahoo","u_so":3}],"eid":"CGWJ2","s":"s"});</script><div id="msmaflink-CGWJ2">リンク</div><!-- MoshimoAffiliateEasyLink END -->
-  </template>
-  <template id="moshimo-cio-quad-100w3c1a">
+  </div>
+  <div class="moshimo-source-card" id="moshimo-cio-quad-100w3c1a">
 <!-- START MoshimoAffiliateEasyLink --><script type="text/javascript">(function(b,c,f,g,a,d,e){b.MoshimoAffiliateObject=a;b[a]=b[a]||function(){arguments.currentScript=c.currentScript||c.scripts[c.scripts.length-2];(b[a].q=b[a].q||[]).push(arguments)};c.getElementById(a)||(d=c.createElement(f),d.src=g,d.id=a,e=c.getElementsByTagName("body")[0],e.appendChild(d))})(window,document,"script","https://dn.msmstatic.com/site/cardlink/bundle.js?20220329","msmaflink");msmaflink({"n":"CIO NovaPort QUADⅡ 100W PD急速充電器 USB-C×3+USB-A×1 4台同時充電 世界最小級 （ブラック）","b":"CIO","t":"CIO-G100W3C1A-N2","d":"https:\/\/m.media-amazon.com","c_p":"\/images\/I","p":["\/417v9TO37AL._SL500_.jpg","\/31zL22Pg1GL._SL500_.jpg","\/31-o3+qdFBL._SL500_.jpg","\/41y9V-IirgL._SL500_.jpg","\/41bDQk2nhyL._SL500_.jpg","\/51T38iMDk5L._SL500_.jpg","\/41LqhT1J0cL._SL500_.jpg","\/51X3mvmBaWL._SL500_.jpg","\/41pWpSC7qRL._SL500_.jpg"],"u":{"u":"https:\/\/www.amazon.co.jp\/dp\/B0DK7983YZ","t":"amazon","r_v":""},"v":"2.1","b_l":[{"id":1,"u_tx":"Amazonで見る","u_bc":"#f79256","u_url":"https:\/\/www.amazon.co.jp\/dp\/B0DK7983YZ","a_id":2882106,"p_id":170,"pl_id":27060,"pc_id":185,"s_n":"amazon","u_so":1},{"id":2,"u_tx":"楽天市場で見る","u_bc":"#f76956","u_url":"https:\/\/search.rakuten.co.jp\/search\/mall\/CIO%20NovaPort%20QUAD%E2%85%A1%20100W%20PD%E6%80%A5%E9%80%9F%E5%85%85%E9%9B%BB%E5%99%A8%20USB-C%C3%973%2BUSB-A%C3%971%204%E5%8F%B0%E5%90%8C%E6%99%82%E5%85%85%E9%9B%BB%20%E4%B8%96%E7%95%8C%E6%9C%80%E5%B0%8F%E7%B4%9A%20%EF%BC%88%E3%83%96%E3%83%A9%E3%83%83%E3%82%AF%EF%BC%89\/","a_id":2882105,"p_id":54,"pl_id":27059,"pc_id":54,"s_n":"rakuten","u_so":2},{"id":3,"u_tx":"Yahoo!ショッピングで見る","u_bc":"#66a7ff","u_url":"https:\/\/shopping.yahoo.co.jp\/search?first=1\u0026p=CIO%20NovaPort%20QUAD%E2%85%A1%20100W%20PD%E6%80%A5%E9%80%9F%E5%85%85%E9%9B%BB%E5%99%A8%20USB-C%C3%973%2BUSB-A%C3%971%204%E5%8F%B0%E5%90%8C%E6%99%82%E5%85%85%E9%9B%BB%20%E4%B8%96%E7%95%8C%E6%9C%80%E5%B0%8F%E7%B4%9A%20%EF%BC%88%E3%83%96%E3%83%A9%E3%83%83%E3%82%AF%EF%BC%89","a_id":3775808,"p_id":1225,"pl_id":27061,"pc_id":1925,"s_n":"yahoo","u_so":3}],"eid":"bg1kc","s":"s"});</script><div id="msmaflink-bg1kc">リンク</div><!-- MoshimoAffiliateEasyLink END -->
-  </template>
-  <template id="moshimo-ugreen-uno-30w">
+  </div>
+  <div class="moshimo-source-card" id="moshimo-ugreen-uno-30w">
 <!-- START MoshimoAffiliateEasyLink --><script type="text/javascript">(function(b,c,f,g,a,d,e){b.MoshimoAffiliateObject=a;b[a]=b[a]||function(){arguments.currentScript=c.currentScript||c.scripts[c.scripts.length-2];(b[a].q=b[a].q||[]).push(arguments)};c.getElementById(a)||(d=c.createElement(f),d.src=g,d.id=a,e=c.getElementsByTagName("body")[0],e.appendChild(d))})(window,document,"script","https://dn.msmstatic.com/site/cardlink/bundle.js?20220329","msmaflink");msmaflink({"n":"UGREEN Uno 30W PD 充電器 ロボット型 USB-C充電器 PSE適合 PD\/PPS\/QC4+対応","b":"UGREEN","t":"CD359","d":"https:\/\/m.media-amazon.com","c_p":"\/images\/I","p":["\/31d7RJsWAmL._SL500_.jpg","\/51H8iuVtG9L._SL500_.jpg","\/51yjyi0wrHL._SL500_.jpg","\/41kz8pegedL._SL500_.jpg","\/41YX209t2IL._SL500_.jpg","\/41R1PocdT1L._SL500_.jpg","\/510c9ELyaWL._SL500_.jpg","\/51zDOMCsjqL._SL500_.jpg","\/41ku-YNjdJL._SL500_.jpg"],"u":{"u":"https:\/\/www.amazon.co.jp\/dp\/B0BZHZ56M9","t":"amazon","r_v":""},"v":"2.1","b_l":[{"id":1,"u_tx":"Amazonで見る","u_bc":"#f79256","u_url":"https:\/\/www.amazon.co.jp\/dp\/B0BZHZ56M9","a_id":2882106,"p_id":170,"pl_id":27060,"pc_id":185,"s_n":"amazon","u_so":1},{"id":2,"u_tx":"楽天市場で見る","u_bc":"#f76956","u_url":"https:\/\/search.rakuten.co.jp\/search\/mall\/UGREEN%20Uno%2030W%20PD%20%E5%85%85%E9%9B%BB%E5%99%A8%20%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%9E%8B%20USB-C%E5%85%85%E9%9B%BB%E5%99%A8%20PSE%E9%81%A9%E5%90%88%20PD%2FPPS%2FQC4%2B%E5%AF%BE%E5%BF%9C\/","a_id":2882105,"p_id":54,"pl_id":27059,"pc_id":54,"s_n":"rakuten","u_so":2},{"id":3,"u_tx":"Yahoo!ショッピングで見る","u_bc":"#66a7ff","u_url":"https:\/\/shopping.yahoo.co.jp\/search?first=1\u0026p=UGREEN%20Uno%2030W%20PD%20%E5%85%85%E9%9B%BB%E5%99%A8%20%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%9E%8B%20USB-C%E5%85%85%E9%9B%BB%E5%99%A8%20PSE%E9%81%A9%E5%90%88%20PD%2FPPS%2FQC4%2B%E5%AF%BE%E5%BF%9C","a_id":3775808,"p_id":1225,"pl_id":27061,"pc_id":1925,"s_n":"yahoo","u_so":3}],"eid":"0kTpp","s":"s"});</script><div id="msmaflink-0kTpp">リンク</div><!-- MoshimoAffiliateEasyLink END -->
-  </template>
-  <template id="moshimo-elecom-mpa-ac10945wf">
+  </div>
+  <div class="moshimo-source-card" id="moshimo-elecom-mpa-ac10945wf">
 <!-- START MoshimoAffiliateEasyLink --><script type="text/javascript">(function(b,c,f,g,a,d,e){b.MoshimoAffiliateObject=a;b[a]=b[a]||function(){arguments.currentScript=c.currentScript||c.scripts[c.scripts.length-2];(b[a].q=b[a].q||[]).push(arguments)};c.getElementById(a)||(d=c.createElement(f),d.src=g,d.id=a,e=c.getElementsByTagName("body")[0],e.appendChild(d))})(window,document,"script","https://dn.msmstatic.com/site/cardlink/bundle.js?20220329","msmaflink");msmaflink({"n":"エレコム 充電器 45W 2ポート Type-C USB PD対応 PPS対応 GaN II採用 折りたたみ式プラグ ブラック EC-AC10945BK","b":"エレコム(ELECOM)","t":"EC-AC10945BK","d":"https:\/\/m.media-amazon.com","c_p":"\/images\/I","p":["\/31zhbwFrZXL._SL500_.jpg","\/41aV2qwLHlL._SL500_.jpg","\/41DkgZhGmtL._SL500_.jpg","\/41zMIIesFiL._SL500_.jpg","\/41RFi3sIh8L._SL500_.jpg","\/41r0zq0fKPL._SL500_.jpg","\/41Bp3n7dfdL._SL500_.jpg","\/41bzERaSrWL._SL500_.jpg"],"u":{"u":"https:\/\/www.amazon.co.jp\/dp\/B0F3CMBP5L","t":"amazon","r_v":""},"v":"2.1","b_l":[{"id":1,"u_tx":"Amazonで見る","u_bc":"#f79256","u_url":"https:\/\/www.amazon.co.jp\/dp\/B0F3CMBP5L","a_id":2882106,"p_id":170,"pl_id":27060,"pc_id":185,"s_n":"amazon","u_so":1},{"id":2,"u_tx":"楽天市場で見る","u_bc":"#f76956","u_url":"https:\/\/search.rakuten.co.jp\/search\/mall\/%E3%82%A8%E3%83%AC%E3%82%B3%E3%83%A0%20%E5%85%85%E9%9B%BB%E5%99%A8%2045W%202%E3%83%9D%E3%83%BC%E3%83%88%20Type-C%20USB%20PD%E5%AF%BE%E5%BF%9C%20PPS%E5%AF%BE%E5%BF%9C%20GaN%20II%E6%8E%A1%E7%94%A8%20%E6%8A%98%E3%82%8A%E3%81%9F%E3%81%9F%E3%81%BF%E5%BC%8F%E3%83%97%E3%83%A9%E3%82%B0%20%E3%83%96%E3%83%A9%E3%83%83%E3%82%AF%20EC-AC10945BK\/","a_id":2882105,"p_id":54,"pl_id":27059,"pc_id":54,"s_n":"rakuten","u_so":2},{"id":3,"u_tx":"Yahoo!ショッピングで見る","u_bc":"#66a7ff","u_url":"https:\/\/shopping.yahoo.co.jp\/search?first=1\u0026p=%E3%82%A8%E3%83%AC%E3%82%B3%E3%83%A0%20%E5%85%85%E9%9B%BB%E5%99%A8%2045W%202%E3%83%9D%E3%83%BC%E3%83%88%20Type-C%20USB%20PD%E5%AF%BE%E5%BF%9C%20PPS%E5%AF%BE%E5%BF%9C%20GaN%20II%E6%8E%A1%E7%94%A8%20%E6%8A%98%E3%82%8A%E3%81%9F%E3%81%9F%E3%81%BF%E5%BC%8F%E3%83%97%E3%83%A9%E3%82%B0%20%E3%83%96%E3%83%A9%E3%83%83%E3%82%AF%20EC-AC10945BK","a_id":3775808,"p_id":1225,"pl_id":27061,"pc_id":1925,"s_n":"yahoo","u_so":3}],"eid":"bpwyG","s":"s"});</script><div id="msmaflink-bpwyG">リンク</div><!-- MoshimoAffiliateEasyLink END -->
-  </template>
+  </div>
+  </div>
   <script>
     const state = { answers: {}, history: [] };
     const questions = {
@@ -249,12 +253,18 @@
       if (a.use === 'many' || a.count === 'three' || (a.laptop === 'pro' && a.count === 'two')) return { name: 'CIO NovaPort QUAD II 100W 3C1A', watts: '100W / 4ポート / 190g', weight: '4台をまとめやすい', reason: 'ノートパソコンとスマホ、周辺機器まで一つにまとめたい人に向いています。家やデスクで複数台を充電しやすい一台です。', cable: 'CIO 柔らかいシリコンケーブル 100W（USB-C to USB-C）', moshimoId: 'moshimo-cio-quad-100w3c1a' };
       return { name: 'CIO NovaPort TRIO II 67W 2C1A', watts: '67W / 3ポート / 109g', weight: '109g・PC用で軽量', reason: 'ノートパソコンとスマホを一つにまとめたい人に向いています。持ち歩きやすい大きさで、外出先でも荷物を増やしにくい一台です。', cable: 'CIO 柔らかいシリコンケーブル 100W（USB-C to USB-C）', moshimoId: 'moshimo-cio-trio-67w2c1a' };
     }
-    function renderMoshimoLink(templateId) {
+    function renderMoshimoLink(sourceId) {
       const slot = document.getElementById('moshimoLink');
-      const template = document.getElementById(templateId);
-      if (!slot || !template) return;
+      const source = document.getElementById(sourceId);
+      if (!slot || !source) return;
+      slot.innerHTML = '<p class="moshimo-fallback">購入リンクを読み込んでいます。</p>';
+      if (copyPreparedMoshimoCard(slot, source)) return;
+      window.setTimeout(() => {
+        if (!copyPreparedMoshimoCard(slot, source)) renderMoshimoFallback(slot, source);
+      }, 2500);
+      return;
       slot.innerHTML = '';
-      slot.appendChild(template.content.cloneNode(true));
+      // Legacy dynamic insertion is skipped because Moshimo cards are preloaded.
       const placeholder = slot.querySelector('[id^="msmaflink-"]');
       if (placeholder && placeholder.textContent.trim() === 'リンク') placeholder.textContent = '購入リンクを読み込んでいます。';
       slot.querySelectorAll('script').forEach(oldScript => {
@@ -269,6 +279,22 @@
         if (current && (text === 'リンク' || text === '購入リンクを読み込んでいます。')) renderMoshimoFallback(slot, template);
       }, 1800);
     }
+    function copyPreparedMoshimoCard(slot, source) {
+      const clone = source.cloneNode(true);
+      clone.querySelectorAll('script').forEach(script => script.remove());
+      const text = clone.textContent.trim();
+      if (!clone.children.length || text === 'リンク' || text === '繝ｪ繝ｳ繧ｯ' || text === '購入リンクを読み込んでいます。') return false;
+      clone.removeAttribute('id');
+      clone.classList.remove('moshimo-source-card');
+      clone.querySelectorAll('[id]').forEach(el => el.removeAttribute('id'));
+      clone.querySelectorAll('img').forEach(img => {
+        img.alt = '';
+        img.setAttribute('referrerpolicy', 'no-referrer');
+      });
+      slot.innerHTML = '';
+      slot.appendChild(clone);
+      return true;
+    }
     function renderMoshimoFallback(slot, template) {
       const data = readMoshimoData(template);
       if (!data) {
@@ -280,10 +306,15 @@
         const color = /^#[0-9a-f]{3,8}$/i.test(link.u_bc || '') ? link.u_bc : '#e9823f';
         return `<a class="moshimo-manual-btn" href="${escapeHtml(buildMoshimoClickUrl(link))}" target="_blank" rel="noopener sponsored" style="background:${color}">${escapeHtml(link.u_tx || 'ショップで見る')}</a>`;
       }).join('');
-      slot.innerHTML = `<div class="moshimo-manual"><img class="moshimo-manual-image" src="${escapeHtml(image)}" alt="${escapeHtml(data.n || '')}" loading="lazy"><div><p class="moshimo-manual-brand">${escapeHtml(data.b || '')}</p><p class="moshimo-manual-title">${escapeHtml(data.n || '')}</p>${data.t ? `<p class="moshimo-manual-model">${escapeHtml(data.t)}</p>` : ''}<div class="moshimo-manual-buttons">${buttons}</div></div></div>`;
+      slot.innerHTML = `<div class="moshimo-manual"><img class="moshimo-manual-image" src="${escapeHtml(image)}" alt="" loading="lazy" referrerpolicy="no-referrer"><div><p class="moshimo-manual-brand">${escapeHtml(data.b || '')}</p><p class="moshimo-manual-title">${escapeHtml(data.n || '')}</p>${data.t ? `<p class="moshimo-manual-model">${escapeHtml(data.t)}</p>` : ''}<div class="moshimo-manual-buttons">${buttons}</div></div></div>`;
+      const imageEl = slot.querySelector('.moshimo-manual-image');
+      if (imageEl) imageEl.addEventListener('error', () => {
+        imageEl.closest('.moshimo-manual')?.classList.add('moshimo-manual-no-image');
+        imageEl.remove();
+      }, { once: true });
     }
-    function readMoshimoData(template) {
-      const script = template.content.querySelector('script');
+    function readMoshimoData(source) {
+      const script = source.querySelector('script');
       const match = script && script.textContent.match(/msmaflink\((\{[\s\S]*?\})\);/);
       if (!match) return null;
       try { return JSON.parse(match[1]); } catch { return null; }
