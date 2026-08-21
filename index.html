@@ -365,6 +365,17 @@
       diagnosisStartSent = true;
       gtag('event', 'diagnosis_start');
     }, true);
+    const resultArea = document.getElementById('resultArea');
+    let diagnosisCompleteSent = false;
+    new MutationObserver(() => {
+      if (diagnosisCompleteSent || !resultArea.classList.contains('active')) return;
+      diagnosisCompleteSent = true;
+      gtag('event', 'diagnosis_complete');
+    }).observe(resultArea, { attributes: true, attributeFilter: ['class'] });
+    resultArea.addEventListener('click', (e) => {
+      if (!e.target.closest('a')) return;
+      gtag('event', 'product_click');
+    });
   </script>
 <!-- redeploy trigger 2026-06-28 -->
 </body>
