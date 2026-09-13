@@ -1,0 +1,35 @@
+{
+  "source": "充電器Knowledge_202609.xlsx",
+  "fastChargeDevices": [
+    { "manufacturer": "Apple", "name": "iPhone 17 Pro", "askFastCharge": true, "requiredOutput": "40W以上", "requiredStandard": "USB-C PD（AVS必須の公式明記なし）", "cableCondition": "USB-C充電ケーブル", "recommendedCategory": "AVS対応 65Wクラス", "diagnosisNote": "最小条件は40W以上。商品帯を増やさないため、速さ重視ではAVS対応65Wクラスへ寄せる。" },
+    { "manufacturer": "Apple", "name": "iPhone 17 Pro Max", "askFastCharge": true, "requiredOutput": "40W以上", "requiredStandard": "USB-C PD（AVS必須の公式明記なし）", "cableCondition": "USB-C充電ケーブル", "recommendedCategory": "AVS対応 65Wクラス", "diagnosisNote": "最小条件は40W以上。商品帯を増やさないため、速さ重視ではAVS対応65Wクラスへ寄せる。" },
+    { "manufacturer": "Apple", "name": "iPhone 18 Pro", "askFastCharge": true, "requiredOutput": "60W以上", "requiredStandard": "可変電圧供給（AVS）", "cableCondition": "60W以上対応のUSB-C充電ケーブル", "recommendedCategory": "AVS対応 65Wクラス", "diagnosisNote": "速さ重視の場合はAVS＋60W以上を満たす充電器を選定。" },
+    { "manufacturer": "Apple", "name": "iPhone 18 Pro Max", "askFastCharge": true, "requiredOutput": "60W以上", "requiredStandard": "可変電圧供給（AVS）", "cableCondition": "60W以上対応のUSB-C充電ケーブル", "recommendedCategory": "AVS対応 65Wクラス", "diagnosisNote": "速さ重視の場合はAVS＋60W以上を満たす充電器を選定。" },
+    { "manufacturer": "Apple", "name": "iPhone Duo", "askFastCharge": true, "requiredOutput": "60W以上", "requiredStandard": "USB-C PD（AVS必須の公式明記なし）", "cableCondition": "USB-C充電ケーブル", "recommendedCategory": "65Wクラス", "diagnosisNote": "60W以上が公式条件。AVS必須とは公式仕様に明記されていないため、必須扱いにはしない。" },
+    { "manufacturer": "Google", "name": "Pixel 9 Pro XL", "askFastCharge": true, "requiredOutput": "45Wクラス", "requiredStandard": "PPS", "cableCondition": "USB-C to USB-C", "recommendedCategory": "PPS対応 45Wクラス", "diagnosisNote": "30W帯より上の充電器を選ぶ意味があるため追加質問対象。" },
+    { "manufacturer": "Google", "name": "Pixel 10 Pro XL", "askFastCharge": true, "requiredOutput": "45W", "requiredStandard": "PPS推奨", "cableCondition": "USB-C to USB-C", "recommendedCategory": "PPS対応 45Wクラス", "diagnosisNote": "Pixel 10 / 10 Proは最大30Wなので、この高速充電専用枝には含めない。" },
+    { "manufacturer": "Google", "name": "Pixel 11 Pro XL", "askFastCharge": true, "requiredOutput": "45W以上", "requiredStandard": "PPS", "cableCondition": "USB-C to USB-C", "recommendedCategory": "PPS対応 45Wクラス", "diagnosisNote": "Google公式が45W USB-C PPS充電器以上を指定。" },
+    { "manufacturer": "Samsung", "name": "Galaxy S22 Ultra", "askFastCharge": true, "requiredOutput": "45W", "requiredStandard": "USB PD / PPS", "cableCondition": "5A対応USB-Cケーブル推奨", "recommendedCategory": "PPS 5A対応 45Wクラス", "diagnosisNote": "高速充電質問対象。45Wを活かすには対応充電器・ケーブル条件を確認。" },
+    { "manufacturer": "Samsung", "name": "Galaxy S23 Ultra", "askFastCharge": true, "requiredOutput": "45W", "requiredStandard": "USB PD / PPS", "cableCondition": "5A対応USB-Cケーブル推奨", "recommendedCategory": "PPS 5A対応 45Wクラス", "diagnosisNote": "高速充電質問対象。" },
+    { "manufacturer": "Samsung", "name": "Galaxy S24 Ultra", "askFastCharge": true, "requiredOutput": "45W", "requiredStandard": "USB PD / PPS", "cableCondition": "5A対応USB-Cケーブル推奨", "recommendedCategory": "PPS 5A対応 45Wクラス", "diagnosisNote": "高速充電質問対象。" },
+    { "manufacturer": "Samsung", "name": "Galaxy S25 Ultra", "askFastCharge": true, "requiredOutput": "45W", "requiredStandard": "USB PD / PPS", "cableCondition": "5A対応USB-Cケーブル推奨", "recommendedCategory": "PPS 5A対応 45Wクラス", "diagnosisNote": "高速充電質問対象。" },
+    { "manufacturer": "Samsung", "name": "Galaxy S26+", "askFastCharge": true, "requiredOutput": "45W以上", "requiredStandard": "USB PD / PPS", "cableCondition": "5A対応USB-Cケーブル推奨", "recommendedCategory": "PPS 5A対応 45Wクラス", "diagnosisNote": "高速充電質問対象。公式サポート表では45W以上グループ。" },
+    { "manufacturer": "Samsung", "name": "Galaxy S26 Ultra", "askFastCharge": true, "requiredOutput": "60W", "requiredStandard": "USB PD / PPS", "cableCondition": "5A対応USB-Cケーブル推奨", "recommendedCategory": "PPS対応 60W以上", "diagnosisNote": "Anker 313 45Wでは最大60Wを出せない。60W以上のPPS対応候補が必要。" },
+    { "manufacturer": "Samsung", "name": "Galaxy Z Fold8", "askFastCharge": true, "requiredOutput": "45W以上", "requiredStandard": "USB PD / PPS", "cableCondition": "5A対応USB-Cケーブル推奨", "recommendedCategory": "PPS 5A対応 45Wクラス", "diagnosisNote": "高速充電質問対象。" },
+    { "manufacturer": "Samsung", "name": "Galaxy Z Fold8 Ultra", "askFastCharge": true, "requiredOutput": "45W以上", "requiredStandard": "USB PD / PPS", "cableCondition": "5A対応USB-Cケーブル推奨", "recommendedCategory": "PPS 5A対応 45Wクラス", "diagnosisNote": "高速充電質問対象。" },
+    { "manufacturer": "Samsung", "name": "Galaxy A36 5G", "askFastCharge": true, "requiredOutput": "45W以上", "requiredStandard": "USB PD / PPS", "cableCondition": "5A対応USB-Cケーブル推奨", "recommendedCategory": "PPS 5A対応 45Wクラス", "diagnosisNote": "高速充電質問対象。" },
+    { "manufacturer": "Samsung", "name": "Galaxy A57 5G", "askFastCharge": true, "requiredOutput": "45W以上", "requiredStandard": "USB PD / PPS", "cableCondition": "5A対応USB-Cケーブル推奨", "recommendedCategory": "PPS 5A対応 45Wクラス", "diagnosisNote": "高速充電質問対象。" }
+  ],
+  "fastChargeProducts": [
+    { "name": "Anker 313 Charger (Ace, 45W)", "maxOutput": "45W", "portCount": 1, "pps": "○", "avs": "未確認", "portable": "◎", "weightGrams": 69, "priority": "最高", "use": "スマホ1台・タブレット", "reason": "PPS 5A対応。Galaxyの超急速充電2.0やPixelの急速充電に使いやすく、約69g・折りたたみ式プラグで持ち運びやすい。", "blogUrl": null, "moshimoId": "moshimo-anker-313-45w" },
+    { "name": "UGREEN Nexode Air 65W急速充電器 ケーブル付き", "maxOutput": "65W", "portCount": 1, "pps": "○", "avs": "○", "portable": "◎", "weightGrams": 75, "priority": "最高", "use": "スマホ1台・省電力ノートPC", "reason": "AVS・PPS対応の65W 1ポートモデル。最新iPhoneの高速充電とPixel/Galaxyの急速充電に対応しやすく、約75gで持ち運びやすい。", "blogUrl": null, "moshimoId": "moshimo-ugreen-nexode-air-65w" }
+  ],
+  "cables": [
+    { "name": "CIO 柔らかいシリコンケーブル 100W（USB-C to USB-C）", "maxOutput": "100W", "connector": "USB-C to USB-C", "priority": "高" }
+  ],
+  "lpOverrides": {
+    "UGREEN Nexode Air 65W急速充電器 ケーブル付き": {
+      "includedCableNote": "付属の100W USB-Cケーブルですぐに使えます"
+    }
+  }
+}
